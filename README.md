@@ -3,9 +3,9 @@ Interactive test consist of 5 math distacne and time questions. Has 4 variants o
 "Submit" window scrolling to the top and showing score. It is eligible to make more interactive with animation, and can be extended and redesign for other subjects.
 Created by manipulationg  DOM elements and using simple JavaScript and DOM methods, for styling used Bootstrap
 Used technologies: 
--Javascript
--HTML
--Bootstrap 5
+- Javascript
+- HTML
+- Bootstrap 5
 
 Temirlan Basitov
 2022
