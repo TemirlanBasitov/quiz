@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <title>Quiz</title>
+</head>
+<body>
+    <!-- Top section-->
+    <div class="intro py-3 bg-white text-center">
+        <div class="container">
+            <h2 class="text-primary display-3 my-4">Quiz</h2>
+        </div>
+    </div>
+    <!-- Result section -->
+    <div class="result py-4 d-none bg-light text-center">
+        <div class="container-lead">
+            <p> Your score <span class="text-primary display-4 p-3"> 0%</span></p>
+        </div>
+    </div>
+    <!--Quiz section-->
+    <div class="quiz py-4 bg-primary">
+        <div class="container">
+            <h2 class="my-5 tetx-white">Math time and distance test questions</h2>
+            <form  class="quiz-form text-light">
+                <div class="my-5">
+                    <p class="lead font-weight-normal"> 	
+                        1. A person crosses a 600 m long street in 5 minutes. What is his speed in km per hour?</p>
+                    <div class="form-check my-2 text-white-50">
+                        <input type="radio" name="q1" value="A" checked>
+                        <label  class="form-check-label">A) 3.6</label>
+                    </div>
+                    <div class="form-check my-2 text-white-50">
+                        <input type="radio" name="q1" value="B" >
+                        <label  class="form-check-label">B) 7.2</label>
+                    </div>
+                    <div class="form-check my-2 text-white-50">
+                        <input type="radio" name="q1" value="C" >
+                        <label  class="form-check-label">C) 8.4</label>
+                    </div>
+                    <div class="form-check my-2 text-white-50">
+                        <input type="radio" name="q1" value="D" >
+                        <label  class="form-check-label">D) 10</label>
+                    </div>
+                </div>
+                <div class="my-5">
+                    <p class="lead font-weight-normal"> 	
+                        2. An aeroplane covers a certain distance at a speed of 240 kmph in 5 hours. To cover the same distance in 1 hours, it must travel at a speed of:</p>
+                    <div class="form-check my-2 text-white-50">
+                        <input type="radio" name="q2" value="A" checked>
+                        <label  class="form-check-label">A) 300 kmph</label>
+                    </div>
+                    <div class="form-check my-2 text-white-50">
+                        <input type="radio" name="q2" value="B" >
+                        <label  class="form-check-label">B) 360 kmph</label>
+                    </div>
+                    <div class="form-check my-2 text-white-50">
+                        <input type="radio" name="q2" value="C" >
+                        <label  class="form-check-label">C) 600 kmph</label>
+                    </div>
+                    <div class="form-check my-2 text-white-50">
+                        <input type="radio" name="q2" value="D" >
+                        <label  class="form-check-label">D) 720 kmph</label>
+                    </div>
+                </div>
+                <div class="my-5">
+                    <p class="lead font-weight-normal"> 	
+                        3. If a person walks at 14 km/hr instead of 10 km/hr, he would have walked 20 km more. The actual distance travelled by him is:</p>
+                    <div class="form-check my-2 text-white-50">
+                        <input type="radio" name="q3" value="A" checked>
+                        <label  class="form-check-label">A) 50 km</label>
+                    </div>
+                    <div class="form-check my-2 text-white-50">
+                        <input type="radio" name="q3" value="B" >
+                        <label  class="form-check-label">B) 56 km</label>
+                    </div>
+                    <div class="form-check my-2 text-white-50">
+                        <input type="radio" name="q3" value="C" >
+                        <label  class="form-check-label">C) 70 km</label>
+                    </div>
+                    <div class="form-check my-2 text-white-50">
+                        <input type="radio" name="q3" value="D" >
+                        <label  class="form-check-label">D) 80 km</label>
+                    </div>
+                </div>
+                <div class="my-5">
+                    <p class="lead font-weight-normal"> 	
+                        4. A train can travel 50% faster than a car. Both start from point A at the same time and reach point B 75 kms away from A at the same time. On the way, however, the train lost about 12.5 minutes while stopping at the stations. The speed of the car is:</p>
+                    <div class="form-check my-2 text-white-50">
+                        <input type="radio" name="q4" value="A" checked>
+                        <label  class="form-check-label">A) 100 kmph</label>
+                    </div>
+                    <div class="form-check my-2 text-white-50">
+                        <input type="radio" name="q4" value="B" >
+                        <label  class="form-check-label">B) 110 kmph</label>
+                    </div>
+                    <div class="form-check my-2 text-white-50">
+                        <input type="radio" name="q4" value="C" >
+                        <label  class="form-check-label">C) 120 kmph</label>
+                    </div>
+                    <div class="form-check my-2 text-white-50">
+                        <input type="radio" name="q4" value="D" >
+                        <label  class="form-check-label">D) 130 kmph</label>
+                    </div>
+                </div>
+                <div class="my-5">
+                    <p class="lead font-weight-normal"> 	
+                        5. Excluding stoppages, the speed of a bus is 54 kmph and including stoppages, it is 45 kmph. For how many minutes does the bus stop per hour?</p>
+                    <div class="form-check my-2 text-white-50">
+                        <input type="radio" name="q5" value="A" checked>
+                        <label  class="form-check-label">A) 9</label>
+                    </div>
+                    <div class="form-check my-2 text-white-50">
+                        <input type="radio" name="q5" value="B" >
+                        <label  class="form-check-label">B) 10</label>
+                    </div>
+                    <div class="form-check my-2 text-white-50">
+                        <input type="radio" name="q5" value="C" >
+                        <label  class="form-check-label">C) 12</label>
+                    </div>
+                    <div class="form-check my-2 text-white-50">
+                        <input type="radio" name="q5" value="D" >
+                        <label  class="form-check-label">D) 20</label>
+                    </div>
+                </div>
+                <div class="tetx-center">
+                    <input type="submit" class="btn btn-light">
+                </div>
+            </form>
+        </div>
+    </div>
+    <script src="./index.js"> </script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+</body>
+</html>
